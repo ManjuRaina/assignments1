@@ -1,0 +1,27 @@
+package com.te.Deadlock;
+
+public class Test {
+
+	public static void main(String[] args) {
+	String obj1="Object1";
+	String obj2="obj2";
+	
+	Thread t1=new Thread() {
+		public void run() {
+			synchronized (obj1) {
+				System.out.println(Thread.currentThread().getName()+"is holding"+obj1);
+				
+			}
+			System.out.println(Thread.currentThread().getName()+"is waiting"+obj2);
+		
+		synchronized (obj2) {
+			System.out.println(Thread.currentThread().getName()+"is holding"+obj2);
+			
+		}
+	
+		}
+			};
+
+	
+	}
+}

@@ -1,0 +1,19 @@
+package com.te.customexception;
+
+public class VoterId {
+	int age;
+	String name;
+	public VoterId(int age, String name) throws BelowAge{
+		if(age<=18) {
+			throw new BelowAge("not eligible to vote"+age);
+		}else {
+		
+		this.age = age;
+		this.name = name;
+		System.out.println("eligible to vote");
+	}
+	}
+	
+	
+
+}

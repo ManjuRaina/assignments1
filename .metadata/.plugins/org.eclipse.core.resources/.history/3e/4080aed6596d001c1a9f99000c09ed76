@@ -1,0 +1,16 @@
+package com.te.threadusinglambada;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Runnable r=()->{
+			for(int i=1;i<=5;i++) {
+				System.out.println(i);
+			}
+		};
+		Thread t1=new Thread(r);
+		t1.start();
+
+	}
+
+}

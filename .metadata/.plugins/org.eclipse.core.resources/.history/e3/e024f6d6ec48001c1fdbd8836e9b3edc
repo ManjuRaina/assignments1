@@ -1,0 +1,17 @@
+package comp.technoelevate.inheritance;
+
+public class B extends A 
+{
+	int m1(int a,int b)
+	{
+		int res1=a+b;
+		return res1;
+	}
+	int m2(int a,int b,int c)
+	{
+		int res2=a+b+c;
+		return res2;
+	}
+
+	
+}

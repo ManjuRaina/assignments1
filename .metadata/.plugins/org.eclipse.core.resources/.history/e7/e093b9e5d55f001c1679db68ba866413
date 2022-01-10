@@ -1,0 +1,16 @@
+package com.te.mock;
+
+import java.util.Scanner;
+
+public class InbuiltStringPalindrome {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("my name is manju" );
+		String n=sc.nextLine();
+		StringBuffer stringBuffer = new StringBuffer(n);
+		stringBuffer s1=stringBuffer.reverse();
+
+	}
+
+}

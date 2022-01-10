@@ -1,0 +1,14 @@
+package com.te.mock;
+
+import java.util.Scanner;
+
+public class SortingArrayDyanmically {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter a array length");
+	int size=
+
+	}
+
+}

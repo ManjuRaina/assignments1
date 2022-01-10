@@ -1,0 +1,16 @@
+package com.tech.arraylistcollection;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class Compare {
+
+public static void main(String[] args){
+		List<Emp> list = Arrays.asList(new Emp(4,"manju", 10000),
+				new Emp(5,"siddhu",20000),
+				new Emp(2, "harshad",30000));
+		System.out.println(list);
+	}
+}

@@ -1,0 +1,32 @@
+package com.te.test;
+
+import java.util.Scanner;
+
+public class Remove {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a string");
+		String s=sc.nextLine();
+		char [] a=s.toCharArray();
+		for (int i = 0; i < args.length; i++) {
+			for (int j = 0; j < args.length; j++) {
+				if(a[i]<a[j]) {
+					char temp=a[i];
+					a[i]=a[j];
+					a[j]=temp;
+					
+				}
+			}
+			
+		}
+		for (int i = 0; i < a.length-1; i++) {
+			if(a[i]!=a[i+1]) {
+			continue;	
+			}
+			System.out.print(a[i] +" ");
+			
+		}
+	}
+
+}

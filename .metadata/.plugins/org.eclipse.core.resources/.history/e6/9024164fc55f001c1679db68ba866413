@@ -1,0 +1,33 @@
+package com.te.mock;
+
+import java.util.Scanner;
+
+public class SortingArrayDyanmically {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter a array length");
+	int size=sc.nextInt();
+	int a[]=new int[size] ;
+	System.out.println("entere the array");
+	for(int i=0;i<size;i++) {
+		a[i]=sc.nextInt();
+	}
+	int temp;
+	for(int i=0;i<size;i++){
+		for(int j=0;j<size;i++) {
+			if(a[i]<a[j]) {
+				temp=a[i];
+				a[i]=a[j];
+                a[j]=temp;
+		}
+	}}
+	for (int n: a) {
+		System.out.println(n);
+	}
+	
+	System.out.println("second smallest"+a[size-2]);
+
+	}
+
+}

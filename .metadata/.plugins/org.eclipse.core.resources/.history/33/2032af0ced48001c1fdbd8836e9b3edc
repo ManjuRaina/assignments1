@@ -1,0 +1,34 @@
+package comp.technoelevate.inheritance;
+
+public class B extends A 
+{
+	
+	static void m1()
+	{
+		System.out.println(10);
+	}
+	static void m2()
+	{
+		System.out.println(20);
+	}
+	
+	static void m3()
+	{
+		System.out.println(30);
+	}
+	static void m4()
+	{
+		System.out.println(40);
+	}
+	public static void main(String[] args)
+	{
+		B b=new B();
+		b.m1();
+		b.m2();
+		b.m3();
+		b.m4();
+		
+	}
+	
+	
+}

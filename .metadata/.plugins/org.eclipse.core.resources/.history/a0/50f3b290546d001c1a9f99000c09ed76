@@ -1,0 +1,26 @@
+package com.tech.arraylistcollection;
+
+
+
+public class Emp{
+int id;
+String name;
+int Sal;
+public Emp(int id, String name, int sal) {
+	super();
+	this.id = id;
+	this.name = name;
+	Sal = sal;
+}
+@Override
+public String toString() {
+	return "Emp [id=" + id + ", " + (name != null ? "name=" + name + ", " : "") + "Sal=" + Sal + "]";
+}
+
+
+
+
+
+    
+	
+}

@@ -1,0 +1,22 @@
+package com.te.programs;
+
+public class String1 {
+	int age;
+	String name;
+	public String1(int age, String name) {
+		super();
+		this.age = age;
+		this.name = name;
+	}
+	@Override
+	public String toString() {
+		return "String1 [age=" + age + ", " + (name != null ? "name=" + name : "") + "]";
+	}
+	
+	public static void main(String[] args) {
+		String string = new String("vivibujb");
+		
+	}
+	
+
+}

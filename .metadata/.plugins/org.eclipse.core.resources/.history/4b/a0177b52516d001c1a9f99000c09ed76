@@ -1,0 +1,15 @@
+import java.util.Comparator;
+
+public class Emp implements Comparator<Emp>{
+int id;
+String name;
+int sal;
+public Emp(int id, String name) {
+	super();
+	this.id = id;
+	this.name = name;
+}
+
+    
+	
+}

@@ -1,0 +1,15 @@
+package com.tech.arraylistcollection;
+
+public class SortById implements Comparable<Emp>{
+
+	@Override
+	public int compareTo(Emp o) {
+		
+		return (int)this.id-o.id;
+	}
+
+	public static void main(String[] args) {
+		list
+	}
+
+}

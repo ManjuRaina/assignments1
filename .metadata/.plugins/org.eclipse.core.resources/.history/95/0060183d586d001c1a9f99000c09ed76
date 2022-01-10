@@ -1,0 +1,18 @@
+package com.te.customexception;
+
+import java.util.Scanner;
+
+public class voterBooth {
+
+	public static void main(String[] args) throws BelowAge {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the name");
+		String s=sc.next();
+		System.out.println("enter the age");
+		int a=sc.nextInt();
+		VoterId voterId = new VoterId(a, s);
+		System.out.println(voterId);
+
+	}
+
+}

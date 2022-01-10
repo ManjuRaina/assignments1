@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\91935\Desktop\tech\myhibernate\src\main\resources\META-INF\persistence.xml"/>
+			<item value="C:\Users\91935\Desktop\tech\hibernate4"/>
+			<item value="C:\Users\91935\Desktop\tech\hibernate3"/>
+			<item value="C:\Users\91935\Desktop\tech\hibernate1"/>
+			<item value="C:\Users\91935\Desktop\tech\hibernate"/>
+			<item value="C:\Users\91935\Desktop\tech\jdbc\src\Demo.java"/>
+			<item value="C:\Users\91935\Desktop\tech\junit\src\com\te\junit\DemoTest.java"/>
+			<item value="C:\Users\91935\Desktop\tech\assignments\src\com\tech\assignments\Program1.java"/>
+			<item value="C:\Users\91935\Desktop\tech\array\src\com\tec\arraysmallestnumber\Sort.java"/>
+			<item value="C:\Users\91935\Desktop\tech\programs\src\com\te\programs\ReverseString.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.te.hibernate.myhibernate1"/>
+			<item value="com.te.h1.lasthibernate"/>
+			<item value="com.te.hibernateassignment.assignmenthibernate"/>
+			<item value="com.te.hibernate6.myhibernate"/>
+			<item value="com.te.hibernate5.newhibernate"/>
+			<item value="com.te.hibernate4"/>
+			<item value="com.te.hibernate2"/>
+		</list>
+		<list key="groupId">
+			<item value="com.te.hibernate"/>
+			<item value="com.te.h1"/>
+			<item value="com.te.hibernateassignment"/>
+			<item value="com.te.hibernate6"/>
+			<item value="com.te.hibernate5"/>
+			<item value="com.te"/>
+		</list>
+		<list key="artifactId">
+			<item value="myhibernate1"/>
+			<item value="lasthibernate"/>
+			<item value="assignmenthibernate"/>
+			<item value="myhibernate"/>
+			<item value="newhibernate"/>
+			<item value="hibernate4"/>
+			<item value="hibernate2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.LocalArchetypeCatalogDialog">
+		<list key="catalogLocation">
+			<item value="C:\Users\91935\Downloads\maven-archetype-quickstart-1.1.jar"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\91935\Desktop\todo-management-spring-boot-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="66"/>
+	</section>
+</section>

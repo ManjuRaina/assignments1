@@ -1,0 +1,10 @@
+package com.te.customexception;
+
+import java.util.Scanner;
+
+public class VoterId {
+	
+	
+	
+
+}

@@ -1,0 +1,28 @@
+package comp.technoelevate.inheritance;
+
+public class A 
+{
+	static int x;
+	static int y;
+	static int m1()
+	{
+	    System.out.println("m1");
+	}
+	static int m2()
+	{
+		  System.out.println("m2");
+			
+	}
+	static int m3()
+	{
+		System.out.println("m3");
+		
+	}
+	static int m4()
+	{
+		System.out.println("m3");
+		
+	}
+
+
+}

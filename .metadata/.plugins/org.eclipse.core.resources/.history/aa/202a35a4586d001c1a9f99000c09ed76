@@ -1,0 +1,32 @@
+package com.te.customexception;
+
+import java.util.Scanner;
+
+public class VoterId {
+	int age;
+	String name;
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the name");
+		String s=sc.next();
+		System.out.println("enter the age");
+		int a=sc.nextInt();
+		VoterId voterId = new VoterId(a, s);
+		
+
+	}
+	public VoterId(int age, String name) throws BelowAge{
+		
+		if(age<=18) {
+			throw new BelowAge("not eligible to vote"+age);
+		}else {
+		
+		this.age = age;
+		this.name = name;
+		System.out.println("eligible to vote");
+	}
+	}
+	
+	
+
+}

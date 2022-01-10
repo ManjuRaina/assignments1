@@ -1,0 +1,16 @@
+package com.te.streamapi;
+
+public class Demo {
+  
+	String name;
+	float price;
+	
+	public Demo(String name, float price) {
+		super();
+		this.name = name;
+		this.price = price;
+	}
+	
+	
+
+}

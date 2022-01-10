@@ -1,0 +1,20 @@
+package com.te.customexception;
+
+import java.util.Scanner;
+
+public class Bank {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter the balance");
+	Double a=sc.nextDouble();
+	System.out.println("enter the withdraw");
+	Double b=sc.nextDouble();
+	
+	if(balance>=withdraw) {
+		
+	}
+
+	}
+
+}

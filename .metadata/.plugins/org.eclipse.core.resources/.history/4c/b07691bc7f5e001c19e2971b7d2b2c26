@@ -1,0 +1,27 @@
+package com.te.crud;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Driver;
+
+public class CreateTable {
+
+	public static void main(String[] args)  {
+		try {
+			// 1st step loading or registering driver class
+			Driver driver=new Driver();
+			DriverManager.registerDriver(driver);
+			
+			// 2nd step create connection
+			DriverManager.getConnection("jdbc:")
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}
